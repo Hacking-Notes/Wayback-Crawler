@@ -4,7 +4,7 @@ Welcome to Wayback Crawler - the ultimate tool for finding hidden gems in the de
 
 Are you tired of manually crawling through subdomains in search of juicy URLs? Look no further, my friend. WayBack Crawler is here to save the day.
 
-Not only does our tool find subdomains like your average subdomain finder, but it goes the extra mile by searching for all possible URLs that have been registered on the Wayback Machine. That's right, we're diving deep into the internet archives to bring you the good stuff.
+Not only does our tool find subdomains like your average subdomain finder, but it goes the extra mile by searching for all possible URLs that have been registered on the <a href="https://web.archive.org/">Wayback Machine</a>. That's right, we're diving deep into the internet archives to bring you the good stuff.
 
 But that's not all, folks. WayBack Crawler is also equipped to analyze each and every URL it finds for potentially vulnerable parameters. That means we're on the lookout for any sensitive information that may have been sent through GET requests - like tokens, cookies, or login info.
 
