@@ -22,6 +22,7 @@ Launch the script
 ```
 python3 wayback_crawler.py                                          ---> Launch the script
 ```
+<b>Change the keywords.txt wordlist to your liking!</b>
 
 ## Demo
 
