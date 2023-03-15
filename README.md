@@ -1,6 +1,6 @@
-# WayBack-Crawler
+# Wayback-Crawler
 
-Welcome to WayBack Crawler - the ultimate tool for finding hidden gems in the depths of the internet!
+Welcome to Wayback Crawler - the ultimate tool for finding hidden gems in the depths of the internet!
 
 Are you tired of manually crawling through subdomains in search of juicy URLs? Look no further, my friend. WayBack Crawler is here to save the day.
 
