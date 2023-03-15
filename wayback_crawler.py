@@ -194,12 +194,18 @@ def wayback_crawler(website, active, vulnerable, website_without_extension, cust
                 urls = [line.strip() for line in f]
 
             # Check each URL for keywords
+            output_items = []
+            for url in urls:
+                for keyword in keywords:
+                    if '?' + keyword in url or '&' + keyword + '=' in url:
+                        output_items.append({"parameter": keyword, "url": url})
+
+            # Sort output items based on parameter value
+            sorted_output_items = sorted(output_items, key=lambda x: x['parameter'])
+
             with open(website_without_extension + '_vulnerable_parameters.txt', 'w') as file:
-                for url in urls:
-                    for keyword in keywords:
-                        if '?' + keyword in url or '&' + keyword + '=' in url:
-                            output = '{{"parameter": "{}", "url": "{}"}}\n'.format(keyword, url)
-                            file.write(output)
+                for output in sorted_output_items:
+                    file.write('{{"parameter": "{}", "url": "{}"}}\n'.format(output['parameter'], output['url']))
 
         if __name__ == '__main__':
             search_subdomains(website, website_without_extension)
@@ -268,7 +274,7 @@ def wayback_crawler(website, active, vulnerable, website_without_extension, cust
                     status_code = f"    \033[33m{status_code}\033[0m"  # Yellow color for status 403
                     subdomain = f"{subdomain}"  # Underline subdomains with status 403
                 if status_code == '404':
-                    status_code = f"\033[31m{status_code}\033[0m"  # Red color for status 404
+                    status_code = f"    \033[31m{status_code}\033[0m"  # Red color for status 404
                     subdomain = f"{subdomain}"  # Underline subdomains with status 404
                 print(f"  {status_code:>{max_status_length}}    {subdomain.ljust(40)}")
 
@@ -325,7 +331,7 @@ def wayback_crawler(website, active, vulnerable, website_without_extension, cust
                 print("=" * 45)
                 print("")
             output(active, vulnerable, subdomains, website_without_extension)
-
+            
 #=================================================
 
 # Retrieve Variables
