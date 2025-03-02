@@ -19,6 +19,5 @@ setup(
         ],
     },
     python_requires=">=3.8",
-    author="Alexis",
     description="A tool for discovering and analyzing subdomains using Wayback Machine data",
 ) 
