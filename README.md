@@ -31,12 +31,12 @@ pip install -r requirements.txt
 
 Basic usage:
 ```bash
-python -m wayback_crawler scan example.com
+python -m wayback_crawler example.com
 ```
 
 Full options:
 ```bash
-python -m wayback_crawler scan [OPTIONS] DOMAIN
+python -m wayback_crawler DOMAIN
 
 Arguments:
   DOMAIN  Target domain (e.g., example.com)  [required]
@@ -61,22 +61,22 @@ python -m wayback_crawler scan example.com
 
 2. Check if discovered subdomains are active:
 ```bash
-python -m wayback_crawler scan example.com --active
+python -m wayback_crawler example.com --active
 ```
 
 3. Check for vulnerable parameters:
 ```bash
-python -m wayback_crawler scan example.com --vulnerable
+python -m wayback_crawler example.com --vulnerable
 ```
 
 4. Use custom wordlist for parameter checking:
 ```bash
-python -m wayback_crawler scan example.com --vulnerable --wordlist my_wordlist.txt
+python -m wayback_crawler example.com --vulnerable --wordlist my_wordlist.txt
 ```
 
 5. Increase concurrent requests for faster scanning:
 ```bash
-python -m wayback_crawler scan example.com --active --concurrent 100
+python -m wayback_crawler example.com --active --concurrent 100
 ```
 
 ## Output
