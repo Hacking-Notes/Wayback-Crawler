@@ -203,7 +203,6 @@ def main(
             result = await crawler.scan()
             display_results(result)
             
-            # Save results if requested
             if output == "json":
                 output_file = f"{domain}_scan_results.json"
                 with open(output_file, "w") as f:
