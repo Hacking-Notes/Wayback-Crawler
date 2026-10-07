@@ -1,3 +1,12 @@
+<div align="center">
+
+<kbd>&nbsp;SUBDOMAINS&nbsp;</kbd> &nbsp; <kbd>&nbsp;WAYBACK&nbsp;</kbd> &nbsp; <kbd>&nbsp;ASYNC&nbsp;</kbd> &nbsp; 
+
+[![Website](https://img.shields.io/badge/WEBSITE-hacking--notes.com-ff3333?style=flat-square&labelColor=000000)](https://hacking-notes.com)
+[![License](https://img.shields.io/badge/LICENSE-MIT-3388ff?style=flat-square&labelColor=000000)](LICENSE)
+
+</div>
+
 # Wayback Crawler 2.0
 
 A powerful tool for discovering and analyzing subdomains using Wayback Machine data and certificate transparency logs.
@@ -18,8 +27,8 @@ A powerful tool for discovering and analyzing subdomains using Wayback Machine d
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/wayback-crawler.git
-cd wayback-crawler
+git clone https://github.com/Hacking-Notes/Wayback-Crawler.git
+cd Wayback-Crawler
 ```
 
 2. Install dependencies:
@@ -102,3 +111,18 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
+
+<br>
+
+<div align="center">
+
+### ───────────────  HACKING NOTES ECOSYSTEM  ───────────────
+
+[![Website](https://img.shields.io/badge/🌐_WEBSITE-hacking--notes.com-ff3333?style=flat-square&labelColor=000000)](https://hacking-notes.com)
+[![Roadmap](https://img.shields.io/badge/🗺_ROADMAP-Hacker--Roadmap-f5f5f5?style=flat-square&labelColor=000000)](https://github.com/Hacking-Notes/Hacker-Roadmap)
+[![RedTeam](https://img.shields.io/badge/🔴_RED_TEAM-notes-ff3333?style=flat-square&labelColor=000000)](https://github.com/Hacking-Notes/RedTeam)
+[![BlueTeam](https://img.shields.io/badge/🔵_BLUE_TEAM-notes-3388ff?style=flat-square&labelColor=000000)](https://github.com/Hacking-Notes/BlueTeam)
+
+<sub><code>// part of the Hacking Notes toolkit — hacking-notes.com</code></sub>
+
+</div>
