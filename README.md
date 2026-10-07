@@ -1,13 +1,20 @@
+<a name="top"></a>
+
 <div align="center">
 
-<kbd>&nbsp;SUBDOMAINS&nbsp;</kbd> &nbsp; <kbd>&nbsp;WAYBACK&nbsp;</kbd> &nbsp; <kbd>&nbsp;ASYNC&nbsp;</kbd> &nbsp; 
+<img src="assets/header.svg" alt="Wayback Crawler" width="100%" />
 
-[![Website](https://img.shields.io/badge/WEBSITE-hacking--notes.com-ff3333?style=flat-square&labelColor=000000)](https://hacking-notes.com)
-[![License](https://img.shields.io/badge/LICENSE-MIT-3388ff?style=flat-square&labelColor=000000)](LICENSE)
+<br />
+
+<a href="https://github.com/Hacking-Notes/Wayback-Crawler/stargazers"><img src="https://img.shields.io/github/stars/Hacking-Notes/Wayback-Crawler?style=for-the-badge&logo=github&logoColor=1f2328&label=Stars&labelColor=f6f8fa&color=059669" alt="Stars" /></a>
+<a href="https://github.com/Hacking-Notes/Wayback-Crawler/network/members"><img src="https://img.shields.io/github/forks/Hacking-Notes/Wayback-Crawler?style=for-the-badge&logo=git&logoColor=1f2328&label=Forks&labelColor=f6f8fa&color=0284c7" alt="Forks" /></a>
+<a href="https://github.com/Hacking-Notes/Wayback-Crawler/commits"><img src="https://img.shields.io/github/last-commit/Hacking-Notes/Wayback-Crawler?style=for-the-badge&label=Updated&labelColor=f6f8fa&color=7c3aed" alt="Last commit" /></a>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/Hacking-Notes/Wayback-Crawler?style=for-the-badge&label=License&labelColor=f6f8fa&color=0891b2" alt="License" /></a>
+<a href="https://hacking-notes.com"><img src="https://img.shields.io/badge/More-hacking--notes.com-db2777?style=for-the-badge&labelColor=f6f8fa" alt="hacking-notes.com" /></a>
 
 </div>
 
-# Wayback Crawler 2.0
+<br />
 
 A powerful tool for discovering and analyzing subdomains using Wayback Machine data and certificate transparency logs.
 
@@ -23,6 +30,9 @@ A powerful tool for discovering and analyzing subdomains using Wayback Machine d
 - 💾 JSON export support
 - ⚙️ Highly configurable
 
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
 ## Installation
 
 1. Clone the repository:
@@ -35,6 +45,9 @@ cd Wayback-Crawler
 ```bash
 pip install -r requirements.txt
 ```
+
+
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ## Usage
 
@@ -88,6 +101,9 @@ python -m wayback_crawler example.com --vulnerable --wordlist my_wordlist.txt
 python -m wayback_crawler example.com --active --concurrent 100
 ```
 
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
 ## Output
 
 The tool provides two types of output:
@@ -104,25 +120,38 @@ The tool provides two types of output:
    - Vulnerable parameters
    - Scan configuration and timing
 
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-<br>
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## 🧰 Hacking Notes Ecosystem
 
 <div align="center">
 
-### ───────────────  HACKING NOTES ECOSYSTEM  ───────────────
-
-[![Website](https://img.shields.io/badge/🌐_WEBSITE-hacking--notes.com-ff3333?style=flat-square&labelColor=000000)](https://hacking-notes.com)
-[![Roadmap](https://img.shields.io/badge/🗺_ROADMAP-Hacker--Roadmap-f5f5f5?style=flat-square&labelColor=000000)](https://github.com/Hacking-Notes/Hacker-Roadmap)
-[![RedTeam](https://img.shields.io/badge/🔴_RED_TEAM-notes-ff3333?style=flat-square&labelColor=000000)](https://github.com/Hacking-Notes/RedTeam)
-[![BlueTeam](https://img.shields.io/badge/🔵_BLUE_TEAM-notes-3388ff?style=flat-square&labelColor=000000)](https://github.com/Hacking-Notes/BlueTeam)
-
-<sub><code>// part of the Hacking Notes toolkit — hacking-notes.com</code></sub>
+🌐 &nbsp;**[hacking-notes.com](https://hacking-notes.com)** &nbsp;·&nbsp; ✍️ &nbsp;**[blog](https://hacking-notes.medium.com/)** &nbsp;·&nbsp; 💬 &nbsp;**[discord](https://discord.gg/r68ameNHrD)**
 
 </div>
+
+| | Resource | What you get |
+| :-: | -------- | ------------ |
+| 🗺 | **[Hacker-Roadmap](https://github.com/Hacking-Notes/Hacker-Roadmap)** | Structured paths from beginner to pro — hobbyist, bug bounty, certs & degree. |
+| 🔴 | **[RedTeam Notes](https://github.com/Hacking-Notes/RedTeam)** | Offensive security notes: recon, exploitation, Windows & Linux. |
+| 🔷 | **[BlueTeam Notes](https://github.com/Hacking-Notes/BlueTeam)** | Defensive security notes: forensics, malware, log & packet analysis. |
+| 🧩 | **[Extensions](https://github.com/Hacking-Notes/Extensions)** | Curated Chrome extensions for ethical hacking & recon. |
+| 🔖 | **[Bookmarks](https://github.com/Hacking-Notes/Bookmarks)** | Curated hacker bookmark collection, one import away. |
+
+<img src="assets/footer.svg" width="100%" alt="" />
+
+<div align="right"><a href="#top">⬆ back to top</a></div>
